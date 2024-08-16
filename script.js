@@ -22,11 +22,11 @@ const perguntas = [
         enunciado: "No Âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Você prefere ser o responsável por desmatar a Amazônia, porém para benefício próprio.",
                 afirmacao: "afirmação",
             },
             {
-                texto: "alternativa 2",
+                texto: "Você prefere acabar com o aquecimento global, porém a pessoa que você mais odeia receberá os créditos por você.",
                 afirmacao: "afirmação",
             },
         ]
@@ -35,11 +35,11 @@ const perguntas = [
         enunciado: "No Âmbito tecnológico, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Você prefere que acabe a fome do mundo, porém as IA 's dominarão o mundo e te farão escravo.",
                 afirmacao: "afirmação",
             },
             {
-                texto: "alternativa 2",
+                texto: "Você prefere ser o maior influenciador do mundo, porém a internet acaba.ef",
                 afirmacao: "afirmação",
             },
         ]
