@@ -9,11 +9,14 @@ const perguntas = [
         enunciado: "No Âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Você prefere estar casado com um cônjuge do qual você gosta, 
+                porém seus pais não irão apoiar o relacionamento de vocês.",
                 afirmacao: "afirmação",
             },
             {
-                texto: "alternativa 2",
+                texto: "Você prefere ter um relacionamento diferente a cada mês que passar com uma pessoa que você ama, porém, sempre que vocês terminarem, ela morre.
+
+",
                 afirmacao: "afirmação",
             },
         ]
@@ -48,3 +51,9 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+
+function mostraPergunta (){
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    
+}
