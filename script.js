@@ -9,14 +9,11 @@ const perguntas = [
         enunciado: "No Âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "Você prefere estar casado com um cônjuge do qual você gosta, 
-                porém seus pais não irão apoiar o relacionamento de vocês.",
+                texto: "Você prefere estar casado com um cônjuge do qual você gosta,porém seus pais não irão apoiar o relacionamento de vocês.",
                 afirmacao: "afirmação",
             },
             {
-                texto: "Você prefere ter um relacionamento diferente a cada mês que passar com uma pessoa que você ama, porém, sempre que vocês terminarem, ela morre.
-
-",
+                texto: "Você prefere ter um relacionamento diferente a cada mês que passar com uma pessoa que você ama,porém, sempre que vocês terminarem, ela morre.",
                 afirmacao: "afirmação",
             },
         ]
