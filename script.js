@@ -73,7 +73,7 @@ function mostraAlternativas () {
 
 function respostaSelecionada (pergunta){
     const afirmacoes= pergunta.afirmacao;
-    historiaFinal += afirmacoes + = " ";
+    historiaFinal += afirmacoes +=  " ";
     atual++;
     mostraPerguntas();
 }
