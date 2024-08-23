@@ -48,8 +48,13 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+lethistoriaFinal = "";
 
 function mostraPergunta (){
+    if(atual >= pergunta.length){
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent="";
@@ -60,7 +65,7 @@ function mostraAlternativas () {
     for (const pergunta of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent= pergunta.texto;
-        botaoAlternativa.addEventListener("click", ()=> repostaSelecionada(pergunta))
+        botaoAlternativa.addEventListener("click", ()=> respostaSelecionada(pergunta))
         caixaAlternativas.appendChild(botaoAlternativa);
     
     }
@@ -68,8 +73,16 @@ function mostraAlternativas () {
 
 function respostaSelecionada (pergunta){
     const afirmacoes= pergunta.afirmacao;
+    historiaFinal += afirmacoes + = " ";
     atual++;
     mostraPerguntas();
+}
+
+function mostraResultado(){
+ caixaPerguntas.textContent = "Em resumo, você escolheu..."
+ caixaResultado.textContent = historiaFinal;
+ caixaAlternativas.textContent = " ";
+
 }
 
 mostraPergunta();
