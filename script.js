@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você prefere estar casado com um cônjuge do qual você gosta,porém seus pais não irão apoiar o relacionamento de vocês.",
-                afirmacao: "afirmação 1",
+                afirmacao: "Você prefere estar casado com um cônjuge do qual você gosta,porém seus pais não irão apoiar o relacionamento de vocês.",
             },
             {
                 texto: "Você prefere ter um relacionamento diferente a cada mês que passar com uma pessoa que você ama,porém, sempre que vocês terminarem, ela morre.",
-                afirmacao: "afirmação 2",
+                afirmacao: "Você prefere ter um relacionamento diferente a cada mês que passar com uma pessoa que você ama,porém, sempre que vocês terminarem, ela morre.",
             },
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você prefere ser o responsável por desmatar a Amazônia, porém para benefício próprio.",
-                afirmacao: "afirmação 3",
+                afirmacao: "Você prefere ser o responsável por desmatar a Amazônia, porém para benefício próprio.",
             },
             {
                 texto: "Você prefere acabar com o aquecimento global, porém a pessoa que você mais odeia receberá os créditos por você.",
-                afirmacao: "afirmação 4",
+                afirmacao: "Você prefere acabar com o aquecimento global, porém a pessoa que você mais odeia receberá os créditos por você.",
             },
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você prefere que acabe a fome do mundo, porém as IA 's dominarão o mundo e te farão escravo.",
-                afirmacao: "afirmação 5",
+                afirmacao: "Você prefere que acabe a fome do mundo, porém as IA 's dominarão o mundo e te farão escravo.",
             },
             {
                 texto: "Você prefere ser o maior influenciador do mundo, porém a internet acaba.ef",
-                afirmacao: "afirmação 6",
+                afirmacao: "Você prefere ser o maior influenciador do mundo, porém a internet acaba.ef",
             },
         ]
     },
