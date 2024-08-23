@@ -48,7 +48,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-lethistoriaFinal = "";
+let historiaFinal = "";
 
 function mostraPergunta (){
     if(atual >= perguntas.length){
