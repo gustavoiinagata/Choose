@@ -56,17 +56,20 @@ function mostraPergunta (){
     mostraAlternativa();
 }
 
-function mostraAlternativa () {
+function mostraAlternativas () {
     for (const pergunta of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent= pergunta.texto;
-        botaoAlternativa.addEventListener("click", function(){
-            atual++;
-            mostraPergunta();
-        })
+        botaoAlternativa.addEventListener("click", ()=> repostaSelecionada(pergunta))
         caixaAlternativas.appendChild(botaoAlternativa);
     
     }
+}
+
+function respostaSelecionada (pergunta){
+    const afirmacoes= pergunta.afirmacao;
+    atual++;
+    mostraPerguntas();
 }
 
 mostraPergunta();
